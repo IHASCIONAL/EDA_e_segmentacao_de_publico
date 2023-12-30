@@ -7,14 +7,13 @@ O meu objetivo é praticar diferentes técnicas de análise de dados, abrindo a 
 Perguntas:
     It's a work in progress...
 
-Processo:
-    -> Análise Exploratória Univariada e Multivariada
-    ->
-
 Insights:
     -> Mulheres são maioria (60%);
     -> As profissões principais dos clientes são: Artistas e Assistentes Médicos
-    -> 50% dos clientes tem renda anual inferior a 110 mil dólares
+    -> 50% dos clientes tem renda anual inferior a 110 mil dólares    
+    -> Os engenheiros são os mais velhos
+    -> As donas de casa são as que têm mais tempo de trabalho
+
     
 
 

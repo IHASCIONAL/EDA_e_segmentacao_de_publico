@@ -256,6 +256,21 @@ files = [
 ]
 
 [[package]]
+name = "dtype-diet"
+version = "0.0.2"
+description = "Attempt to shrink Pandas `dtypes` without losing data so you have more RAM (and maybe more speed)"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "dtype_diet-0.0.2-py3-none-any.whl", hash = "sha256:73435e07ab12cc674a474bd396dfc05cc010e2f079c2809055d76330c0e611ef"},
+    {file = "dtype_diet-0.0.2.tar.gz", hash = "sha256:3c9161bf67d8e591ea60d3d1bd99f19935292488d36804bb1ba8bf1ff1627dd6"},
+]
+
+[package.dependencies]
+pandas = ">=1.0.0"
+tabulate = "*"
+
+[[package]]
 name = "executing"
 version = "2.0.1"
 description = "Get the currently executing AST node of a frame, and other information"
@@ -1574,6 +1589,20 @@ docs = ["ipykernel", "nbconvert", "numpydoc", "pydata_sphinx_theme (==0.10.0rc2)
 stats = ["scipy (>=1.7)", "statsmodels (>=0.12)"]
 
 [[package]]
+name = "sidetable"
+version = "0.9.1"
+description = "sidetable builds simple but useful summary tables of your data"
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "sidetable-0.9.1-py3-none-any.whl", hash = "sha256:13f6076977eb7ca68f054463f90ec2dd7001a8df75b349ccc7bcb0377a75e4bc"},
+    {file = "sidetable-0.9.1.tar.gz", hash = "sha256:363d90e4ec0e83699ad34e4d688806e1156e9ebbe6a1d229ab5d44c8229c8a9d"},
+]
+
+[package.dependencies]
+pandas = ">=1.0"
+
+[[package]]
 name = "six"
 version = "1.16.0"
 description = "Python 2 and 3 compatibility utilities"
@@ -1674,6 +1703,20 @@ dev = ["check-manifest"]
 test = ["coverage"]
 
 [[package]]
+name = "tabulate"
+version = "0.9.0"
+description = "Pretty-print tabular data"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "tabulate-0.9.0-py3-none-any.whl", hash = "sha256:024ca478df22e9340661486f85298cff5f6dcdba14f3813e8830015b9ed1948f"},
+    {file = "tabulate-0.9.0.tar.gz", hash = "sha256:0095b12bf5966de529c0feb1fa08671671b3368eec77d7ef7ab114be2c068b3c"},
+]
+
+[package.extras]
+widechars = ["wcwidth"]
+
+[[package]]
 name = "tenacity"
 version = "8.2.3"
 description = "Retry code until it succeeds"
@@ -1758,4 +1801,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "3.11.4"
-content-hash = "5748b1723e007529c0be31fe8ed08bfa6f3d4793ac1d4391ce6449c95f3b9eff"
+content-hash = "aeb11e5a913daa64bcb248098c87816675664d4e9f679de74f8403154709da67"
